@@ -1,0 +1,13 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="detail-card">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+
+    <a class="read-more" href="/">← Back to Home</a>
+</div>
+
+{% endblock %}
